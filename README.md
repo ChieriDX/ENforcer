@@ -1,5 +1,5 @@
 # ENforcer
-
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gokmeebphmjdlgknompgaghdlemiohll.svg)](https://chromewebstore.google.com/detail/enforcer/gokmeebphmjdlgknompgaghdlemiohll)
 **ENforcer is not a translator.** It's a focused tool to make websites behave as if your browser were set to English.  
 **ENforcer は翻訳ツールではありません。**「英語設定のブラウザからアクセスした」かのようにサイトに振る舞わせるシンプルな拡張機能です。
 
