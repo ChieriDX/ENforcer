@@ -45,8 +45,8 @@ It does not collect any user data and is intended purely for internationalizatio
 
 ## 🛠️ Installation | インストール方法
 
-Coming soon on [Chrome Web Store](#)  
-※ 公開後にURLを挿入してください
+Available now on the [Chrome Web Store](https://chromewebstore.google.com/detail/enforcer/gokmeebphmjdlgknompgaghdlemiohll)  
+現在は [Chrome ウェブストア](https://chromewebstore.google.com/detail/enforcer/gokmeebphmjdlgknompgaghdlemiohll) で公開中です。
 
 またはローカルから読み込むには：
 
