@@ -1,0 +1,46 @@
+{
+  "name": "ENforcer",
+  "description": "Temporarily simulate English browser settings (navigator.language & Accept-Language) per tab for multilingual testing.",
+  "version": "1.3",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting",
+    "storage",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Toggle ENforcer (English Mode)",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "langOverrideRules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
